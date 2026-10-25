@@ -1,0 +1,13 @@
+{
+  "name": "rele-tse-apuracao",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Relé que repassa requisições pra resultados.tse.jus.br, rodando fora da rede da Cloudflare",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
